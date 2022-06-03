@@ -1,12 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import { useState, Fragment } from "react";
+import "./App.css";
+import Header from "./components/Header";
 
 function App() {
-
-
-  return (
-    
-  )
+	return (
+		<Fragment>
+			<Header />
+		</Fragment>
+	);
 }
 
-export default App
+export default App;
