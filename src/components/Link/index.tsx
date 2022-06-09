@@ -9,7 +9,7 @@ interface LinkProps {
 function Link(props: LinkProps) {
     //
 	return (
-		<a className="links-menu" href={props.redirect} target="_blank" rel="noreferrer">
+		<a className="links-menu text-white" href={props.redirect} target="_blank" rel="noreferrer">
 			{props.texto}
 		</a>
 	);
